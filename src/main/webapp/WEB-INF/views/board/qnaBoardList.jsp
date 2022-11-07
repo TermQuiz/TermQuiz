@@ -98,7 +98,7 @@
 					<span class="list-date">현재 시간</span>
 					<span class="ico_arr"> 
 						<span class="ico_disclosure"></span>
-					</span>
+						<!--디테일로 이동  -->
 					</a>
 					</li>
 				</ul>
