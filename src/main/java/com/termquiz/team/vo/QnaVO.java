@@ -10,7 +10,7 @@ public class QnaVO {
 	private String qnaid;
 	private String qnatitle;
 	private String qnacontent;
-	private String answer;
+	private String qnaanswer;
 	private Date qnatime;
 	
 	

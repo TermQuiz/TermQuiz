@@ -9,7 +9,7 @@ public interface QnaService {
 
 	List <QnaVO> selectList();
 
-	List <QnaVO> selectOne(QnaVO VO);
+	QnaVO selectOne(QnaVO VO);
 	
 	
 	

@@ -4,5 +4,15 @@
 
 <mapper namespace="com.termquiz.team.mapperInterface.QnaMapper">
 	
+<select id="selectList" resultType="com.termquiz.team.vo.QnaVO">
+select qnano, qnaid, qnatitle, qnacontent, qnaanswer, qnatime from
+qna order by qnano desc
+</select>
+
+<select id="selectOne" resultType="com.termquiz.team.vo.QnaVO">
+select * from qna where qnano=#{qnano}
+</select>
+
+
 	
 </mapper>

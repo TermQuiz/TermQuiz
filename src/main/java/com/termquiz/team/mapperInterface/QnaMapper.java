@@ -8,6 +8,6 @@ public interface QnaMapper {
 
 	List<QnaVO> selectList();
 
-	List<QnaVO> selectOne(QnaVO vO);
+	QnaVO selectOne(QnaVO VO);
 
 }
