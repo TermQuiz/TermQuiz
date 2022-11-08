@@ -6,12 +6,12 @@ import lombok.Data;
 
 @Data
 public class QnaVO {
-	private int qnano;
-	private String qnaid;
-	private String qnatitle;
-	private String qnacontent;
-	private String qnaanswer;
-	private Date qnatime;
+	private int qnaNo;
+	private String qnaId;
+	private String qnaTitle;
+	private String qnaContent;
+	private String qnAanswer;
+	private Date qnaTime;
 	
 	
 }

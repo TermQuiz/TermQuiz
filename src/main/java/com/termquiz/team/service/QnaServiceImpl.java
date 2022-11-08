@@ -11,7 +11,7 @@ import com.termquiz.team.mapperInterface.QnaMapper;
 import com.termquiz.team.vo.QnaVO;
 
 @Service
-public abstract class QnaServiceImpl implements QnaService {
+public  class QnaServiceImpl implements QnaService {
 	
 	@Autowired
 	QnaMapper dao;
